@@ -98,6 +98,7 @@ header{
 	background-position: top center, bottom center;
 }
 
+
 @-ms-viewport {
 	width: device-width;
 }
@@ -117,7 +118,9 @@ body {
 	background-color: #191919;
 }
 
-
+.rd-navbar-wrap{
+	background-color: grey;
+}
 
 .rd-navbar-brand p{
 	font-size: 25px;
@@ -130,11 +133,25 @@ body {
 }
 
 .rd-navbar-nav{
-	margin-top: 1rem;
+	margin-top: 4rem;
 }
 
 [tabindex="-1"]:focus {
 	outline: 0 !important;
+}
+
+.foto{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+.foto img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
 }
 
 hr {
@@ -10321,11 +10338,13 @@ fieldset[disabled] .btn-danger {
 .section-98 {
 	padding-top: 98px;
 	padding-bottom: 98px;
+
 }
 
 .section-110 {
 	padding-top: 110px;
 	padding-bottom: 110px;
+	
 }
 
 .section-124 {
