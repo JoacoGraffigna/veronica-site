@@ -30851,6 +30851,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 		bottom: 40px;
 	}
 }
+@media (max-width: 480px) {
+	.ui-to-top {
+		left: 20px;
+		bottom: 40px;
+	}
+}
 
 /*
 *
