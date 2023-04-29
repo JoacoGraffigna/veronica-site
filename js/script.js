@@ -1078,3 +1078,5 @@ $document.ready( function () {
 		for ( var i = 0; i < plugins.lightDynamicGalleryItem.length; i++ ) initDynamicLightGallery( plugins.lightDynamicGalleryItem[ i ] );
 	}
 } );
+
+

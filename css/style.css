@@ -30921,3 +30921,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 html:not(.ie-11):not(.ios) .parallax-disabled {
 	background-attachment: fixed;
 }
+
+.rd-navbar-panel img{
+	width: 150px;
+	margin-right: 0;
+	float: right;
+	margin-top: 4px;
+}
