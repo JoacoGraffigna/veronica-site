@@ -95,6 +95,7 @@ html {
 
 header{
 	background-image: url('img/cross-training-scaled.jpg');
+	background-position: top center, bottom center;
 }
 
 @-ms-viewport {
@@ -30846,7 +30847,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 @media (min-width: 480px) {
 	.ui-to-top {
-		right: 40px;
+		left: 40px;
 		bottom: 40px;
 	}
 }
