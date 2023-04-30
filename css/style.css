@@ -119,7 +119,7 @@ body {
 }
 
 .rd-navbar-wrap{
-	background-color: grey;
+	background-color: black;
 }
 
 .rd-navbar-brand p{
@@ -30922,9 +30922,26 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	background-attachment: fixed;
 }
 
-.rd-navbar-panel img{
-	width: 150px;
-	margin-right: 0;
-	float: right;
-	margin-top: 4px;
+
+
+@media (max-width:1199px) {
+	.rd-navbar-panel img{
+		display: flex;
+		width: 150px;
+		margin-right: 0;
+		float: right;
+		margin-top: 4px;
+	}
 }
+
+@media (min-width:1200px) {
+	.rd-navbar-panel img{
+		width: 150px;
+		height:40px;
+		margin-right: 0;
+		float: left;
+		margin-top: 4px;
+	}
+}
+
+
