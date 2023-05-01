@@ -30977,7 +30977,7 @@ margin-top: 4rem;
 .redes img{
 	margin: auto;
 	height: 70px;
-	margin-top: 5rem;
+
 }
 
 .redes span{
@@ -30988,12 +30988,10 @@ margin-top: 4rem;
 .ig{
 	border: 1px solid red;
 	margin: auto;
-	background-color: black;
 	width: 30%;
 }
 
 .fb{
-	background-color: black;
 	border: 1px solid red;
 	margin: auto;
 	width: 30%;
@@ -31002,7 +31000,6 @@ margin-top: 4rem;
 .gmail{
 	border: 1px solid red;
 	margin: auto;
-	background-color: #000;
 	width: 30%;
 }
 
@@ -31011,18 +31008,34 @@ margin-top: 4rem;
 		display: block;
 	}
 
+	.titulo span{
+		font-size: medium;
+	}
+
 	.ig{
 		width: 80%;
 	}
 
+	.ig img{
+		margin-top: 0;
+	}
+
 	.gmail{
-		margin-top: 13rem;
+		margin-top: 8rem;
 		width: 80%;
 	}
 
+	.gmail img{
+		margin-top: 0;
+	}
+
 	.fb{
-		margin-top: 13rem;
+		margin-top: 8rem;
 		width: 80%;
+	}
+
+	.fb img{
+		margin-top: 0;
 	}
 
 
