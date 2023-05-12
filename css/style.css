@@ -33393,3 +33393,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .section-98{
   border-bottom: 1px solid black;
 }
+
+.fotito img{
+  height: 1;
+}
