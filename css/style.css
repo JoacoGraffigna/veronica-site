@@ -1697,7 +1697,7 @@ pre code {
   }
 }
 #primera {
-  background-color: #e9f5f9;
+  background-color: #f8e9f9;
 }
 .table {
   width: 100%;
@@ -33383,7 +33383,22 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   .fb img {
     margin-top: 0;
   }
+
+  #primera h1{
+    font-size: 35px;
+  }
   
+  #primera h3{
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  .foto img{
+    width: 160px;
+    height: 190px;
+    margin-top: 0;
+  }
+
 }
 
 .box-icon {
