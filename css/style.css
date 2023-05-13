@@ -127,7 +127,7 @@ body {
 }
 
 .rd-navbar-wrap {
-  background-color: black;
+  background-color:black;
 }
 
 .rd-navbar-brand p {
@@ -157,8 +157,8 @@ body {
   margin-bottom: 3rem;
 }
 .foto img {
-  height: 150px;
-  width: 150px;
+  height:250px;
+  width: 200px;
   border-radius: 50%;
 }
 
@@ -33392,8 +33392,4 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 .section-98{
   border-bottom: 1px solid black;
-}
-
-.fotito img{
-  height: 1;
 }
