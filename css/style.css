@@ -33408,3 +33408,19 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .section-98{
   border-bottom: 1px solid black;
 }
+.pilares{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.pilar1{
+  margin: auto;
+}
+
+.pilar2{
+  margin: auto;
+}
+
+.pilar3{
+  margin: auto;
+}
