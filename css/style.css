@@ -33438,7 +33438,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 #sobre-mi .texto{
   width: 100%;
-  background-color: red;
+  background-color: #f8e9f9;
   
 }
 
@@ -33468,4 +33468,8 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   width: 100%;
   background-color: #f8e9f9;
   border-bottom: 1px solid black;
+}
+
+#sobre-mi .texto img{
+  width: 50%;
 }
