@@ -33407,9 +33407,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   border: 1px solid black;
 }
 
-.section-98{
-  border-bottom: 1px solid black;
-}
 .pilares{
   display: flex;
   margin-bottom: 2rem;
@@ -33431,26 +33428,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   margin: auto;
   font-size: 17px;
   font-weight:bold;
-}
-
-.instagram-media{
- 
-}
-
-.instagram-media-rendered{
-  width: 1px;
-  margin-top: 5rem;
-}
-
-.Embed { 
-  width: 100%;
-  margin-top: 5rem;
-}
-
-.instagram-embed-0{
-  margin: auto;
-  
-  margin-top: 5rem;
 }
 
 
@@ -33481,8 +33458,14 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   font-size: 20px;
 
 
+}
 
-
-.reproducto-ig{
-  margin-top: 5rem;
+.reproductor-ig{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #f8e9f9;
+  border-bottom: 1px solid black;
 }
