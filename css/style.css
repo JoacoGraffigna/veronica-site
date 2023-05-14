@@ -33430,3 +33430,57 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   font-size: 17px;
   font-weight:bold;
 }
+
+.instagram-media{
+ 
+}
+
+.instagram-media-rendered{
+  width: 1px;
+  margin-top: 5rem;
+}
+
+.Embed { 
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.instagram-embed-0{
+  margin: auto;
+  
+  margin-top: 5rem;
+}
+
+
+#sobre-mi{
+  display: flex;
+}
+
+
+#sobre-mi .texto{
+  width: 100%;
+  background-color: red;
+  
+}
+
+
+
+
+.texto-largo{
+  width: 80%;
+  margin: auto;
+  
+
+}
+
+
+.texto-largo span{
+  color:black;
+  font-size: 20px;
+
+
+
+
+.reproducto-ig{
+  margin-top: 5rem;
+}
