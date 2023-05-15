@@ -10786,6 +10786,7 @@ fieldset[disabled] .btn-danger {
   top: 0;
   left: 0;
   right: 0;
+  background-color: #000;
 }
 
 .section-0 {
@@ -23728,7 +23729,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
   font-size: 22px;
   line-height: 34px;
   transition: 0.3s all ease;
-  color: inherit;
+  color: black;
 }
 
 [data-x-mode]
@@ -26382,11 +26383,11 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 }
 
 .rd-navbar-top-panel.rd-navbar-light {
-  background: #fff;
+  background: black;
 }
 
 .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static.rd-navbar--is-stuck {
-  background: #fff;
+  background-color: #000;
 }
 
 [data-x-mode] .twitter > * {
@@ -33507,4 +33508,17 @@ left: 10px;
 
 #segunda{
   margin-top: 10rem;
+}
+
+.rd-navbar-static{
+  background-color: black;
+  border-radius: 5px;
+}
+
+.rd-navbar-wrap{
+  background-color: black;
+}
+
+.container h3{
+  font-size: 25px;
 }
