@@ -33513,10 +33513,12 @@ left: 10px;
 .rd-navbar-static{
   background-color: black;
   border-radius: 5px;
+  max-height:80px;
 }
 
 .rd-navbar-wrap{
   background-color: black;
+  min-height: 500px;
 }
 
 .container h3{
