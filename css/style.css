@@ -33548,14 +33548,14 @@ text-extra-big
 }
 
 .texto-fijo{
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 50%;
   margin: auto;
   border-radius: 10px;
 }
 .texto-fijo h1{
   font-family;
-  color: #000;
+  color: white;
   margin-top: 2rem;
 
 }
