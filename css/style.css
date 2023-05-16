@@ -33540,7 +33540,10 @@ left: 10px;
     font-weight: 600;
     width: 60%;
   }
-  
+
+  .swiper-slide data-slide-bg img{
+    background-size: cover;
+  }
 
 }
 
