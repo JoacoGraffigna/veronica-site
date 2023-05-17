@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="Whatsapp/whatsapp.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
   </head>
   <body>
     <!-- IE Panel-->
@@ -56,7 +56,7 @@
                     <!--Navbar Brand Mobile-->
                     <!-- RD Navbar Nav-->
                     <ul class="rd-navbar-nav">
-                      <li><a href="#primera"><span>Inicio</span></a></li>
+                      <li class="primerboton"><a href="#primera"><span>Inicio</span></a></li>
                       <li><a href="#sobre-mi"><span>Acerca de mi</span></a></li>
                       <li><a href="#segunda"><span>gimnasio</span></a></li>
                       <li><a href="#tercera"><span</span>servicios</a></li>
@@ -232,10 +232,10 @@
                     <div class="row justify-content-xl-center">
                       
                       <div class="col-xl-12">
-                        <div class="text-extra-big font-weight-bold font-italic text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="300">Coaching individual</div>
+                        <div style="color: #000000;" class="text-extra-big font-weight-bold font-italic text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="300">Coaching individual</div>
                       </div>
                       <div class="col-xl-8 offset-top-10">
-                        <h5 class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500">
+                        <h5 style="color: #000000;" class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500">
                           Consultas 1 a 1
                         </h5>
                         <div class="offset-top-20 offset-sm-top-50"><a class="btn btn-danger btn-anis-effect" href="https://api.whatsapp.com/send?phone=2364612569&text=Hola!%20me%20gustaria%20obtener%20mas%20informacion%20sobre%20el%20servicio%20de%20coaching%20individual%20,%20gracias!" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800"><span class="btn-text">Obtener mas información</span></a></div>
@@ -254,10 +254,10 @@
                   <div class="container">
                     <div class="row justify-content-xl-center">
                       <div class="col-xl-12">
-                        <div class="text-extra-big font-weight-bold font-italic text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="300">Coaching para equipos de trabajo</div>
+                        <div style="color: #000000;" class="text-extra-big font-weight-bold font-italic text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="300">Coaching para equipos de trabajo</div>
                       </div>
                       <div class="col-xl-8 offset-top-10">
-                        <h5 class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500">Dirigido hacia empresas. Individual y/o grupal</h5>
+                        <h5  class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500">Dirigido hacia empresas. Individual y/o grupal</h5>
                         <div class="offset-top-20 offset-sm-top-50"><a class="btn btn-danger btn-anis-effect" href="https://api.whatsapp.com/send?phone=2364612569&text=Hola!%20me%20gustaria%20obtener%20mas%20informacion%20sobre%20los%20servicios%20disponibles,%20gracias!" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800"><span class="btn-text">Obtener mas información</span></a></div>
                       </div>
                     </div>
@@ -274,10 +274,10 @@
                   <div class="container">
                     <div class="row justify-content-xl-center">
                       <div class="col-xl-12">
-                        <div class="text-extra-big font-weight-bold font-italic text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="300">Eventos/Talleres</div>
+                        <div style="color: #000000;" class="text-extra-big font-weight-bold font-italic text-uppercase" data-caption-animate="fadeInUp" data-caption-delay="300">Eventos/Talleres</div>
                       </div>
                       <div class="col-xl-8 offset-top-10">
-                        <h5 class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500">Charlas motivacionales, inspirando al bienestar</h5>
+                        <h5  class="hidden d-sm-block text-light" data-caption-animate="fadeInUp" data-caption-delay="500">Charlas motivacionales, inspirando al bienestar</h5>
                         <div class="offset-top-20 offset-sm-top-50"><a class="btn btn-danger btn-anis-effect" href="https://api.whatsapp.com/send?phone=2364612569&text=Hola!%20me%20gustaria%20obtener%20mas%20informacion%20sobre%20los%20servicios%20disponibles,%20gracias!" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800"><span class="btn-text">Obtener mas información</span></a></div>
                       </div>
                     </div>
@@ -363,6 +363,7 @@
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
     <script>
       AOS.init(
         {
