@@ -33306,12 +33306,13 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .redes h1 {
-  margin-top: 4rem;
+  margin-top: 0rem;
 }
 
 .redes {
   width: 100%;
   height: 100%;
+  padding-bottom: 20rem;
 }
 
 .contenedor {
@@ -33333,15 +33334,15 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   font-size: 25px;
 }
 
-.ig {
-  border: 1px solid red;
+.ig{
   margin: auto;
   width: 30%;
   border-radius: 10px;
+
 }
 
 .fb {
-  border: 1px solid red;
+
   margin: auto;
   width: 30%;
   border-radius: 10px;
@@ -33349,10 +33350,11 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .gmail {
-  border: 1px solid red;
+
   margin: auto;
   width: 30%;
   border-radius: 10px;
+
 
   
 }
@@ -33448,6 +33450,12 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   
 }
 
+
+.texto{
+  padding-top: 7rem;
+  padding-bottom: 12rem;
+}
+
 .texto h2{
   margin-top: 5rem;
   margin-bottom: 2rem;
@@ -33478,6 +33486,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   width: 100%;
   background: linear-gradient(#d2c0d3,#ad9dad);
   border-bottom: 1px solid black;
+  padding-bottom:8rem;
 }
 
 
@@ -33697,12 +33706,11 @@ input::placeholder,textarea::placeholder{
   background-color: red;
   width: 1366px;
   height: 768px;
-
-
   margin-bottom: 50rem;
 }
 
 
 #cuarta{
-  margin-top: 15rem;
+  padding-top: 8rem;
+  background:linear-gradient(#c7c6c3,#adadad);
 }
