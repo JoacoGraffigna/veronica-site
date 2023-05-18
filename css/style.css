@@ -33594,6 +33594,7 @@ text-extra-big
     height: 30rem;
     background: url(/img/trekking3.jpg);
     background-size: cover;
+    background-attachment: fixed;
     
 }
 }
