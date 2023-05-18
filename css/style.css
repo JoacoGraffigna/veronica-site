@@ -33306,12 +33306,13 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .redes h1 {
-  margin-top: 4rem;
+  margin-top: 0rem;
 }
 
 .redes {
   width: 100%;
   height: 100%;
+  padding-bottom: 20rem;
 }
 
 .contenedor {
@@ -33333,15 +33334,15 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   font-size: 25px;
 }
 
-.ig {
-  border: 1px solid red;
+.ig{
   margin: auto;
   width: 30%;
   border-radius: 10px;
+
 }
 
 .fb {
-  border: 1px solid red;
+
   margin: auto;
   width: 30%;
   border-radius: 10px;
@@ -33349,10 +33350,11 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .gmail {
-  border: 1px solid red;
+
   margin: auto;
   width: 30%;
   border-radius: 10px;
+
 
   
 }
@@ -33448,6 +33450,12 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   
 }
 
+
+.texto{
+  padding-top: 7rem;
+  padding-bottom: 12rem;
+}
+
 .texto h2{
   margin-top: 5rem;
   margin-bottom: 2rem;
@@ -33478,6 +33486,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   width: 100%;
   background: linear-gradient(#d2c0d3,#ad9dad);
   border-bottom: 1px solid black;
+  padding-bottom:8rem;
 }
 
 
@@ -33631,6 +33640,7 @@ form{
   width: 400px;
   margin: auto;
   margin-top: 8rem;
+  height: 610px;
 }
 
 .input-group{
@@ -33652,7 +33662,7 @@ label{
 }
 
 input,textarea{
-  padding:17px 25px;
+  padding:7px 25px;
   border-radius: 25px;
   margin-bottom: 20px;
   background-color: #EDFFF0;
@@ -33666,7 +33676,7 @@ input::placeholder,textarea::placeholder{
   color:black;
 }
 
-.btn{
+.boton{
   font-size: 16px;
   color: #ffffff;
   border:0;
@@ -33683,13 +33693,30 @@ input::placeholder,textarea::placeholder{
 @media(max-width:991px){
   form{
     padding: 50px 30px;
-    width: 100%;
+    width: 80%;
+    height: 660px;
   }
 
   input{
     padding: 15px;
+    width: 99%;
   }
 
 
 
+}
+
+
+
+.hola{
+  background-color: red;
+  width: 1366px;
+  height: 768px;
+  margin-bottom: 50rem;
+}
+
+
+#cuarta{
+  padding-top: 8rem;
+  background:linear-gradient(#c7c6c3,#adadad);
 }
