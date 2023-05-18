@@ -128,9 +128,7 @@ body {
   background-color: #191919;
 }
 
-.rd-navbar-wrap {
-  background-color:black;
-}
+
 
 .rd-navbar-brand p {
   font-size: 25px;
@@ -1699,7 +1697,8 @@ pre code {
   }
 }
 #primera {
-  background-color:linear-gradient(#f8e9f9,black);
+  background:linear-gradient(#f8e9f9,#d2c0d3);
+  
 }
 .table {
   width: 100%;
@@ -10786,7 +10785,6 @@ fieldset[disabled] .btn-danger {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #000;
 }
 
 .section-0 {
@@ -33472,7 +33470,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   text-align: center;
   justify-content: center;
   width: 100%;
-  background-color: #f8e9f9;
+  background: linear-gradient(#d2c0d3,#ad9dad);
   border-bottom: 1px solid black;
 }
 
@@ -33514,7 +33512,6 @@ left: 10px;
 }
 
 .rd-navbar-wrap{
-  background-color: black;
   min-height: 500px;
 }
 text-extra-big
