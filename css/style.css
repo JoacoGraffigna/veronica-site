@@ -33576,3 +33576,7 @@ text-extra-big
   align-items: center;
   object-fit: cover;
 }
+
+.separador h2{
+  color:white;
+}
