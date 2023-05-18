@@ -33588,6 +33588,10 @@ text-extra-big
   padding: 0 1rem;
 }
 
+.text-skill h2{
+  margin-top: 0;
+}
+
 @media (max-width:600px) {
   .separador{
     width: 100%;
