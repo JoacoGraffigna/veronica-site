@@ -33337,18 +33337,24 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   border: 1px solid red;
   margin: auto;
   width: 30%;
+  border-radius: 10px;
 }
 
 .fb {
   border: 1px solid red;
   margin: auto;
   width: 30%;
+  border-radius: 10px;
+
 }
 
 .gmail {
   border: 1px solid red;
   margin: auto;
   width: 30%;
+  border-radius: 10px;
+
+  
 }
 
 @media (max-width: 1000px) {
@@ -33608,6 +33614,7 @@ form{
   text-align: center;
   width: 400px;
   margin: auto;
+  margin-top: 8rem;
 }
 
 .input-group{
