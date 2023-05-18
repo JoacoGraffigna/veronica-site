@@ -33615,6 +33615,7 @@ form{
   width: 400px;
   margin: auto;
   margin-top: 8rem;
+  height: 610px;
 }
 
 .input-group{
@@ -33676,4 +33677,20 @@ input::placeholder,textarea::placeholder{
 
 
 
+}
+
+
+
+.hola{
+  background-color: red;
+  width: 1366px;
+  height: 768px;
+
+
+  margin-bottom: 50rem;
+}
+
+
+#cuarta{
+  margin-top: 15rem;
 }
