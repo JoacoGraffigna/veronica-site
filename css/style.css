@@ -33567,7 +33567,7 @@ text-extra-big
 
 .separador{
   width: 100%;
-  height: 35rem;
+  height: 30rem;
   background: url(/img/trekking3.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -33607,7 +33607,19 @@ text-extra-big
   font-size:20px
 }
 
+.formu{
+  display: flex;
+  width: 100%;
+  background-color: #c7c6c3;
+}
+
+#formulario{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 form{
+  background-color: white;
   padding: 50px 55px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
@@ -33647,7 +33659,7 @@ input,textarea{
 }
 
 input::placeholder,textarea::placeholder{
-  color:#b5cab6;
+  color:black;
 }
 
 .btn{
