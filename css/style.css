@@ -1697,7 +1697,7 @@ pre code {
   }
 }
 #primera {
-  background:linear-gradient(#f8e9f9,#d2c0d3);
+  background:linear-gradient(#f8e9f9,#dfcde0);
   
 }
 .table {
@@ -33484,7 +33484,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   text-align: center;
   justify-content: center;
   width: 100%;
-  background: linear-gradient(#d2c0d3,#ad9dad);
+  background: linear-gradient(#dfcde0,#c9b8ca);
   border-bottom: 1px solid black;
   padding-bottom:8rem;
 }
