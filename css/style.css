@@ -33623,7 +33623,7 @@ text-extra-big
 .formu{
   display: flex;
   width: 100%;
-  background-color: #c7c6c3;
+  background:linear-gradient(#f8e9f9,#dfcde0);
 }
 
 #formulario{
@@ -33718,5 +33718,7 @@ input::placeholder,textarea::placeholder{
 
 #cuarta{
   padding-top: 8rem;
-  background:linear-gradient(#c7c6c3,#adadad);
+  background: linear-gradient(#dfcde0,#c9b8ca);
 }
+
+
