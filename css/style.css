@@ -33457,8 +33457,9 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .texto h2{
+  width: 80%;
+  margin: auto;
   margin-top: 5rem;
-  margin-bottom: 2rem;
 }
 
 
@@ -33466,16 +33467,25 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .texto-largo{
   width: 80%;
   margin: auto;
+  box-shadow: 0 0 1rem rgba(36, 35, 35, 0.925);
   
-
+  
 }
 
+.texto-largo:hover{
+  box-shadow: 0 0 1rem rgb(10, 10, 10);
+    border: 0.15rem inset rgba(36, 35, 35, 0.295);
+    color: #383232;
+}
 
 .texto-largo span{
   color:black;
   font-size: 20px;
 
+}
 
+.texto-largo .txt{
+  padding-top: 5rem;
 }
 
 .reproductor-ig{
@@ -33722,3 +33732,11 @@ input::placeholder,textarea::placeholder{
 }
 
 
+.divider{
+  width: 15%;
+  height: 0.4rem;
+  background-color: #dbdaf3;
+  border: none;
+  margin-bottom: 5rem;
+  mar
+}
