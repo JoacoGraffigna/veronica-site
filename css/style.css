@@ -33446,6 +33446,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 #sobre-mi .texto{
   width: 100%;
+
   background-color: #f8e9f9;
   
 }
@@ -33738,5 +33739,27 @@ input::placeholder,textarea::placeholder{
   background-color: #dbdaf3;
   border: none;
   margin-bottom: 5rem;
-  mar
+
 }
+
+
+.es{
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #51d94c;
+  box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+  cursor:pointer;
+  height: 45px;
+  float: right;
+  margin-right: 0;
+}
+
+.traductor{
+  display: flex;
+  height: 100px;
+  background-color: red;
+  width: 40%;
+  float: right;
+}
+
