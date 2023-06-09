@@ -33616,14 +33616,12 @@ text-extra-big
   .separador{
     width: 100%;
     height: 30rem;
-<<<<<<< HEAD
     background: url(/img/trekking3.jpg);
     background-size: cover; 
     background-attachment: fixed;   
-=======
+
     background: url("/img/trekking3.jpg");
     background-size: cover;
->>>>>>> 9c0b8ea0cc763d7142fe3199d2096b8067c04675
 }
 }
 
@@ -33782,6 +33780,8 @@ input::placeholder,textarea::placeholder{
 .gimnasio-carousel{
   display: flex;
   width: 100%;
+  background-color: #f8e9f9;
+  padding-bottom: 8rem;
 
 }
 
@@ -33792,5 +33792,11 @@ input::placeholder,textarea::placeholder{
 
 .gs{
   width:100%;
+  background-color: #f8e9f9;
+}
 
+
+.relleno3{
+  height: 5rem;
+  background-color: #f8e9f9;
 }
