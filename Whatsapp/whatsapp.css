@@ -1,4 +1,5 @@
 .float{
+<<<<<<< HEAD
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -11,8 +12,28 @@
   font-size:30px;
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
+=======
+  position:fixed;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  margin-top:16px;
+>>>>>>> 9c0b8ea0cc763d7142fe3199d2096b8067c04675
 }
+
 .float:hover {
+<<<<<<< HEAD
 	text-decoration: none;
 	color: #25d366;
   background-color:#fff;
@@ -21,3 +42,10 @@
 .my-float{
 	margin-top:16px;
 }
+=======
+  text-decoration: none;
+  color: #25d366;
+  background-color:#fff;
+}
+
+>>>>>>> 9c0b8ea0cc763d7142fe3199d2096b8067c04675
