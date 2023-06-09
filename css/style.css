@@ -33778,3 +33778,19 @@ input::placeholder,textarea::placeholder{
 
 }
 
+
+.gimnasio-carousel{
+  display: flex;
+  width: 100%;
+
+}
+
+.gimnasio-carousel .icon-cards{
+  margin: auto;
+}
+
+
+.gs{
+  width:100%;
+
+}
