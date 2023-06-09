@@ -33611,7 +33611,7 @@ text-extra-big
 .text-skill h2{
   margin-top: 0;
 }
-
+/* 
 @media (max-width:600px) {
   .separador{
     width: 100%;
@@ -33619,7 +33619,7 @@ text-extra-big
     background: url(/img/trekking3.jpg);
     background-size: cover;    
 }
-}
+} */
 
 
 
