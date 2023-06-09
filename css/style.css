@@ -33617,7 +33617,8 @@ text-extra-big
     width: 100%;
     height: 30rem;
     background: url(/img/trekking3.jpg);
-    background-size: cover;    
+    background-size: cover; 
+    background-attachment: fixed;   
 }
 }
 
@@ -33739,5 +33740,36 @@ input::placeholder,textarea::placeholder{
   background-color: #dbdaf3;
   border: none;
   margin-bottom: 5rem;
+}
+
+
+
+
+@media screen and (max-width: 425px) {
+  background-image: var(--mobile-cover);
+}
+
+
+@media (max-width:1000px) {
+
+  .separador{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    z-index: -1;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    background-image: var(--cover);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    
+    transform: translateZ(0);
+    will-change: transform;
+    
+  } 
+
 }
 
