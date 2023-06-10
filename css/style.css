@@ -33753,28 +33753,6 @@ input::placeholder,textarea::placeholder{
 }
 
 
-@media (max-width:1000px) {
-
-  .separador{
-    position: fixed;
-    top: 50px;
-    left: 0;
-    z-index: -1;
-    
-    width: 100vw;
-    height: 100vh;
-    
-    background-image: var(--cover);
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    
-    transform: translateZ(0);
-    will-change: transform;
-    
-  } 
-
-}
 
 
 .gimnasio-carousel{
