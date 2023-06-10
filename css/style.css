@@ -33453,7 +33453,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 
 .texto{
-  padding-top: 7rem;
+  padding-top: 3rem;
   padding-bottom: 12rem;
 }
 
@@ -33748,12 +33748,6 @@ input::placeholder,textarea::placeholder{
 
 
 
-@media screen and (max-width: 425px) {
-  background-image: var(--mobile-cover);
-}
-
-
-
 
 .gimnasio-carousel{
   display: flex;
@@ -33777,4 +33771,8 @@ input::placeholder,textarea::placeholder{
 .relleno3{
   height: 5rem;
   background-color: #f8e9f9;
+}
+
+@media (max-width:1000px) {
+  
 }
