@@ -33775,10 +33775,16 @@ input::placeholder,textarea::placeholder{
   
 }
 
+
+.contenedor-boton{
+background-color: #dfcde0;
+width: 100%;
+}
+
 .boton-rep{
   margin: auto;
   width: 300px;
-  background-color: blue;
+  background-color: #dfcde0;
   
 }
 .boton-reproductor{
