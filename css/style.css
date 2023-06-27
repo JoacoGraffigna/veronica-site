@@ -33338,6 +33338,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   margin: auto;
   width: 30%;
   border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
 
 }
 
@@ -33346,6 +33347,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   margin: auto;
   width: 30%;
   border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
 
 }
 
@@ -33354,7 +33356,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   margin: auto;
   width: 30%;
   border-radius: 10px;
-
+  background-color: rgba(255, 255, 255, 0.3);
 
   
 }
@@ -33369,6 +33371,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   }
 
   .ig {
+  
     width: 80%;
   }
 
@@ -33469,7 +33472,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   width: 80%;
   margin: auto;
   box-shadow: 0 0 1rem rgba(36, 35, 35, 0.925);
-  
+  border-radius: 5px;
   
 }
 
@@ -33621,6 +33624,12 @@ text-extra-big
     background: url("/img/trekking3.jpg");
     background-size: cover;
 }
+
+.separador h2{
+  font-size: 20px;
+  background-color:rgba(255,255, 255, 0.3);
+}
+
 }
 
 
