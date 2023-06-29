@@ -3,4 +3,3 @@ $( document ).ready(function() {
     $(".rd-navbar-nav-wrap").removeClass("active");
   });
 });
-
