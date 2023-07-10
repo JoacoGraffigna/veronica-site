@@ -9661,7 +9661,7 @@ mark,
 }
 
 .text-extra-big {
-  font-size: 38px;
+  font-size: 35px;
   line-height: 1.2;
 }
 
@@ -33482,7 +33482,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     color: #383232;
 }
 
-.texto-largo span{
+.texto-largo p{
   color:black;
   font-size: 20px;
 
