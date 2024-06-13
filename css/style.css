@@ -33309,11 +33309,11 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .redes {
   width: 100%;
   height: 100%;
-  padding-bottom: 20rem;
+  padding-bottom: 10rem;
 }
 
 .contenedor {
-  margin-top: 10rem;
+  margin-top: 5rem;
   width: 100%;
   display: flex;
 
