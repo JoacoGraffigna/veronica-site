@@ -33285,20 +33285,19 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 @media (max-width: 1199px) {
   .rd-navbar-panel img {
     display: flex;
-    width: 150px;
-    margin-right: 0;
+    width: 120px;
+    margin-right: 5px;
     float: right;
-    margin-top: 4px;
+    margin-top: 0px;
   }
 }
 
 @media (min-width: 1200px) {
   .rd-navbar-panel img {
-    width: 150px;
-    height: 40px;
+    width: 130px;
+    height: auto;
     margin-right: 0;
     float: left;
-    margin-top: 4px;
   }
 }
 
