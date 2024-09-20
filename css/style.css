@@ -1696,7 +1696,7 @@ pre code {
     margin-left: 91.66667%;
   }
 }
-#primera {
+#inicio{
   background:linear-gradient(#f8e9f9,#dfcde0);
   
 }
@@ -33393,11 +33393,11 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     margin-top: 0;
   }
 
-  #primera h1{
+  #inicio h1{
     font-size: 35px;
   }
   
-  #primera h3{
+  #inicio h3{
     font-size: 20px;
     margin-top: 0;
   }
