@@ -1,4 +1,10 @@
 @charset "UTF-8";
+*{
+  
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+  
+}
 
 @media print {
   *,
@@ -33317,10 +33323,9 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .contenedor {
-  margin-top: 5rem;
-  width: 100%;
+  width: 50%;
   display: flex;
-
+  margin: 5rem auto 0px auto;
   align-items: center;
   justify-content: center;
 }
@@ -33337,67 +33342,38 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 .ig{
   margin: auto;
-  width: 30%;
+  width: 10%;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.3);
 
 }
 
 .fb {
 
   margin: auto;
-  width: 30%;
+  width: 10%;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.3);
 
 }
 
 .gmail {
 
   margin: auto;
-  width: 30%;
+  width: 10%;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.3);
 
   
 }
 
 @media (max-width: 1000px) {
   .contenedor {
-    display: block;
+    display: flex;
   }
 
   .titulo span {
     font-size: medium;
   }
 
-  .ig {
-  
-    width: 80%;
-  }
-
-  .ig img {
-    margin-top: 0;
-  }
-
-  .gmail {
-    margin-top: 8rem;
-    width: 80%;
-  }
-
-  .gmail img {
-    margin-top: 0;
-  }
-
-  .fb {
-    margin-top: 8rem;
-    width: 80%;
-  }
-
-  .fb img {
-    margin-top: 0;
-  }
-
+ 
   #inicio h1{
     font-size: 35px;
   }
