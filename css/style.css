@@ -33313,13 +33313,18 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .redes h1 {
+  color: white;
   margin-top: 0rem;
+  font-weight: 400;
+}
+
+.redes span{
+  color:white
 }
 
 .redes {
   width: 100%;
   height: 100%;
-  padding-bottom: 10rem;
 }
 
 .contenedor {
@@ -33327,41 +33332,71 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   display: flex;
   margin: 5rem auto 0px auto;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .redes img {
   margin: auto;
-  height: 60px;
+  height: 80px;
+  border-radius: 10px;
+  padding: 15px;
 }
 
+
 .redes span {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 25px;
+
 }
 
 .ig{
-  margin: auto;
-  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 60%;
+  width: 25%;
   border-radius: 10px;
 
 }
 
+.ig:hover{
+  transform: translateY(-4px); 
+  transition: 0.5s;
+  background-color: rgba(240, 240, 240, 0.8);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
 .fb {
-
-  margin: auto;
-  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:60%;
+  width: 25%;
   border-radius: 10px;
+}
 
+.fb:hover{
+  transform: translateY(-4px); 
+  transition: 0.5s;
+  background-color: rgba(240, 240, 240, 0.8);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .gmail {
-
-  margin: auto;
-  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 25%;
   border-radius: 10px;
+}
 
-  
+.gmail:hover{
+  transform: translateY(-4px); 
+  transition: 0.5s;
+  background-color: rgba(240, 240, 240, 0.8);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 @media (max-width: 1000px) {
@@ -33403,19 +33438,19 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .pilar1{
   margin: auto;
   font-size: 17px;
-  font-weight:bold;
+  font-weight:500;
 }
 
 .pilar2{
   margin: auto;
   font-size: 17px;
-  font-weight:bold;
+  font-weight:500;
 }
 
 .pilar3{
   margin: auto;
   font-size: 17px;
-  font-weight:bold;
+  font-weight:500;
 }
 
 
@@ -33426,7 +33461,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 #sobre-mi .texto{
   width: 100%;
-
   background-color: #f8e9f9;
   
 }
@@ -33441,6 +33475,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   width: 80%;
   margin: auto;
   margin-top: 5rem;
+  font-weight: 400 !important;
 }
 
 
@@ -33615,10 +33650,12 @@ text-extra-big
 
 .container h1{
   font-size: 30px;
+  font-weight: 500;
 }
 
 .container h3{
-  font-size:20px
+  font-size:20px;
+  font-weight: 450;
 }
 
 .formu{
@@ -33719,8 +33756,10 @@ input::placeholder,textarea::placeholder{
 
 #contacto{
   border-top: 1px solid black;
-  padding-top: 8rem;
-  background: linear-gradient(#f8e9f9,#c9b8ca);
+  /*padding-top: 8rem;*/
+    background-color: #272727;
+    height: 300px;
+    display: flex;
 }
 
 
@@ -33754,6 +33793,15 @@ input::placeholder,textarea::placeholder{
   width:100%;
   background-color: #f8e9f9;
 }
+
+.gs h3{
+  font-weight: 400;
+}
+
+.gs h4{
+  font-weight: 400;
+}
+
 
 
 .relleno3{
@@ -33849,13 +33897,18 @@ border-radius: 16px 0px 0px 16px;
   margin: auto;
 }
 
+.content h2{
+  font-weight: 400;
+}
+
 .textContainer h2{
   font-size: 28px;
 }
 .textContainer span{
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 400;
   color: #000;
+
 }
 
 .textContainer button{
@@ -33863,7 +33916,7 @@ border-radius: 16px 0px 0px 16px;
   border: 1.2px solid #0071e3;
   border-radius: 32px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   color: #0071e3;
   text-decoration: none !important;
   min-height: 0px !important;
@@ -33888,4 +33941,8 @@ border-radius: 16px 0px 0px 16px;
   margin: auto;
   letter-spacing: 1px;
   margin-bottom: 55px;
+}
+
+.tituloServices h2{
+  font-weight: 400;
 }
