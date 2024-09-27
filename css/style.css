@@ -33426,6 +33426,21 @@ height: 60%;
 
 }
 
+
+@media (max-width:600px){
+
+  .contenedor {
+    width: 90%;
+    display: flex;
+    margin: 5rem auto 0px auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}
+
+
+
 .box-icon {
   border: 1px solid black;
 }
@@ -33507,8 +33522,8 @@ height: 60%;
 }
 
 .reproductor-ig{
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin-top: -1px;
   width: 100%;
   background: linear-gradient(#dfcde0,#c9b8ca);
   border-bottom: 1px solid black;
@@ -33805,6 +33820,7 @@ input::placeholder,textarea::placeholder{
 
 
 .relleno3{
+  margin: -1px 0px;
   height: 5rem;
   background-color: #f8e9f9;
 }
@@ -33815,8 +33831,9 @@ input::placeholder,textarea::placeholder{
 
 
 .contenedor-boton{
-background-color: #dfcde0;
-width: 100%;
+  margin-top: -1px;
+ background-color: #dfcde0;
+ width: 100%;
 }
 
 .boton-rep{
@@ -33860,6 +33877,16 @@ width: 100%;
   /* margin-top: 40px !important; */
 }
 
+@media (max-width:800px) {
+  .service{
+    margin: auto;
+    width: 100%;
+    max-width: 1220px;
+    display: block !important;
+    /* margin-top: 40px !important; */
+  }
+}
+
 
 .mid{
 margin: 40px auto;
@@ -33874,6 +33901,68 @@ margin: 40px auto;
   max-width: 610px !important;
 border-radius: 16px 0px 0px 16px;
 }
+
+@media (max-width:990px) {
+  .imgContainer .img {
+    max-width: 600px !important;
+    width: 100%;
+  }
+
+  .textContainer{
+    max-width: 600px !important;
+    background-color: #f2f2f2;
+    border-radius: 0px 16px 16px 0px;
+    display: flex;
+  margin: auto;
+  }
+
+
+  #services{
+    width: 100%;
+    display: block !important;
+    background-color:#f8e9f9;
+    padding: 100px 12px 40px 12px;
+    border-top: 1px solid black;
+  }
+
+
+  .mid{
+    display: flex !important;
+  }
+
+  .service {
+    flex-direction: column; 
+  }
+
+  .imgContainer {
+    order: 1 !important;
+  }
+
+  .imgContainer .img{
+    border-radius: 16px 16px 0px 0px !important;
+  }
+
+  .textContainer {
+    border-radius: 0px 0px 16px 16px !important;
+    padding: 25px;
+    order: 2;
+  }
+  .textContainer h2{
+    font-size: 25px !important;
+    line-height: normal;
+  }
+
+  .textContainer span{
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+  line-height: normal;
+  }
+
+}
+
+
+
 
 .img-spec {
   border-radius: 0px 16px 16px 0px !important;
@@ -33903,6 +33992,7 @@ border-radius: 16px 0px 0px 16px;
 
 .textContainer h2{
   font-size: 28px;
+  line-height: normal;
 }
 .textContainer span{
   font-size: 17px;
@@ -33946,3 +34036,6 @@ border-radius: 16px 0px 0px 16px;
 .tituloServices h2{
   font-weight: 400;
 }
+
+
+
